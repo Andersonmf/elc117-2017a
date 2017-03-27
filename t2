@@ -1,0 +1,25 @@
+1º
+def addsfix(x,s)
+  return[ s+x for win s]
+
+  2º
+  def countshort(w):
+   return len[w for w in if len (w)<5]
+
+   3º
+    def stripvolmels(s):
+     return[str for str in str if not str in 'aeioua AEIOU']
+
+     4º
+      def hidechar(s):
+       return ["". join('-' if not c==''else c for c in s)]
+
+       5º
+        def gentable(x)
+         return[(n,n*n)for nin range (1,x)]
+
+         6º
+           def func(is)
+             return"".join([s[0]+s[-1]for s in ls])
+
+             7º def tuplaechat(l1.l2)
