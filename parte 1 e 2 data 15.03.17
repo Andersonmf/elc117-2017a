@@ -1,0 +1,110 @@
+
+#Exercício1
+
+def	somaQuad(x,y):
+	return x*x+y*y
+
+#Exercício 2
+
+def hasEqHeads(l1,l2):
+	if l1[0]==l2[0]:
+		return True
+	else:
+		return False
+
+
+#Exercício 3
+
+def addstringaux(str):
+	return 'SR. '+str
+
+def addstring(lista):
+	return list(map(addstringaux,lista))
+
+
+#Exercício 4
+
+def strspace(str):
+	return len(list(filter(lambda x:x==' ',str)))
+
+
+#Exercício 5
+
+def calcaux(n):
+	return 3*n*2+2/n+1
+def calc(lis):
+	return list(map(calcaux,lis))
+
+
+#Exercício 6
+
+def negativo(lis):
+	return list(filter(lambda n: n<0,lis))
+
+#Exercício 7
+
+def entre1e100(lis):
+	return list(filter(lambda n: n>1 and n<100,lis))
+
+#Exercício 8
+
+def filtrapar(lis):
+	return list(filter(lambda n:n%2==0,lis))
+
+#Exercício 9
+
+def charFoud(c,s):
+	if len(s)<1:
+		return False
+	elif s[0]==c:
+		return True
+	else:
+		return charFoud(c,s[1:])
+------------------------------------------------------------------------------------------------------------
+
+
+Parte 2
+
+# Exercício 1
+
+def addstring(lista):
+	return list(map(lambda x:"SR. "+x,lista))
+
+	# Exercício 2
+
+	def calc(lis):
+	return list(map(lambda n: 3*n*2+2/n+1,lis))
+
+   # Exercício 3
+
+   st= "abacate"
+   filter (func, st)
+   def charfound(c,s):filter(lambda ,st)
+   file"<stdim>",line1
+   def charfound(c,s):filter(lambda, st)
+
+   def char found(c,s):
+   return listfilter(lambda x:c==x,s) >o
+   charfound('a',st)
+   true
+
+   charfound('z',st)
+   false
+
+
+	# Exercício 4
+
+	def terminacomA(lista):
+	return list(filter(lambda x: x[-1]=='a',lista))
+
+	# Exercício 5
+	
+	def func(lista):
+	return list(map(lambda n: n*2,lista))
+
+
+
+
+
+
+
